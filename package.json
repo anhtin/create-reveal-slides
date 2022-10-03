@@ -4,6 +4,7 @@
   "description": "Reveal.js template instantiator",
   "private": false,
   "main": "index.js",
+  "license": "MIT",
   "bin": {
     "create-reveal-slides": "index.js"
   },
