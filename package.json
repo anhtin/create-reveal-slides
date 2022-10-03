@@ -12,7 +12,7 @@
     "node": ">=16.7.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "npm publish --access public"
   },
   "author": {
     "name": "Tin Anh Nguyen",
