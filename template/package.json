@@ -1,0 +1,16 @@
+{
+  "description": "",
+  "scripts": {
+    "dev": "nodemon --exec 'npm start' --watch ./src",
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "reveal.js": "^4.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "parcel": "^2.7.0"
+  }
+}
